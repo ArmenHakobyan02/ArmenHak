@@ -1,0 +1,104 @@
+#Nav{
+    width: 100%;
+    height: 80px;
+    /* border: solid 1px; */
+    border: 1px solid grey;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+}
+.nikname{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px red; */
+}
+.nikname>h2>a{
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+.nikname h2:hover a{
+    color:  bisque;
+}
+.ListPar{
+    width: 85%;
+    height: 80px;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+}
+.ListPar>li{
+    margin-top: 20px;
+}
+.ListPar a{
+    text-decoration: none;
+}
+li a:hover{
+    color: bisque;
+}
+.active{
+    color: red;
+}
+.bars{
+    display: none;
+}
+.barsmenu{
+    margin-top: 80px;
+    /* border: solid 1px; */
+    position: absolute;
+    display: none;
+
+}
+.barsmenu>a{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 540px){
+   .ListPar li{
+        display: none;
+    }
+    .ListPar{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .bars{
+        display: block;
+        font-size: 25px;
+        /* float: right; */
+    } 
+    .bars{
+        font-size: 28px;
+    }
+    .barsmenu{
+        display: block;
+        width: 80px;
+        height: 150px;
+        /* border: solid 1px red; */
+        transition: 2s;
+
+    } 
+    .barsmenu>p{
+        text-align: center;
+        font-size: 24px;
+    }
+    p>a:hover{
+        color: bisque;
+    }
+}
+
+#adimn{
+    padding: 5px 5px;
+    position: absolute;
+    left: 95%;
+    color: white;
+    border: solid 1px;
+    width: 65px;
+}

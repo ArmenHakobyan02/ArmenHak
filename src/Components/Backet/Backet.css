@@ -1,0 +1,27 @@
+.backet{
+    width: 30%;
+    height: auto;
+    /* border: solid 1px red; */
+    padding: 15px 15px;
+}
+.parbacket{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.backetchlos{
+    position: absolute;
+}
+@media only screen and ( max-width: 772px){
+    .backet{
+        width: 45% !important;
+        margin-top: 20px;
+    }
+}
+@media only screen and ( max-width: 540px){
+    .backet{
+        width: 75% !important;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

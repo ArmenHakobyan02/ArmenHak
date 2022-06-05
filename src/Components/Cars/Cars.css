@@ -1,0 +1,181 @@
+
+#Card{
+    width: 26%;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+    background-color:  honeydew;
+    padding: 20px 20px;
+    transition: 2s;   
+}
+
+#SectionOne{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.SectionText{
+    text-align: center;
+    color: aquamarine;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.okclick{
+    padding: 5px 15px;
+    margin-top: 10px;  
+    margin-left: 1%;
+}
+.frac{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.korac{
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    background-color: red;
+}
+.pakdiv{
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    /* border: solid 1px red; */
+}
+
+#LearnMorePar{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#par{
+    width: 30%;
+    height: auto;
+    /* border: solid 1px red; */
+    background-color: white;
+    padding: 5px 5px;
+    
+}
+.X{
+    float: right;
+    color: black;
+    border: solid 1px;
+}
+#newdiv{
+    width: auto;
+    height: auto;
+    /* border: solid 1px; */
+    position: relative;
+   
+
+}
+.adingcount{
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.btncount{
+    padding: 5px 15px;
+}
+@media only screen and ( max-width: 772px){
+    #SectionOne{
+        flex-wrap: wrap;
+    }
+    #Card{
+        width: 45%;
+    }
+    #par{
+        width: 45%; 
+    }
+
+}
+/*
+ara es gorcoxutyunn vochin chashvelov vochmiki karcinkn
+ !important */
+
+@media only screen and (max-width: 540px){
+    #SectionOne{
+        flex-wrap: wrap;
+    }
+    #Card{
+        width: 75%;
+    }
+    #par{
+        width: 65%;
+    }
+}
+
+
+.sontbtn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Moreclick{
+    border: solid 1px;
+    padding: 10px 25px;
+    float: right;
+
+}
+
+#newCard{
+    width: 25%;
+    height: 600px;
+    margin-top: 20px;
+    /* border: solid 1px; */
+    background-color: #F0FFF0FF;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.adds{
+    font-size: 300px;
+    color: #FFE4C4FF;
+}
+.addsCardPar{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.addsCardchild{
+    width: 55%;
+    height: 600px;
+    border: solid 1px;
+    background-color: bisque;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.inputchild{
+    width: 90%;
+    height: 60px;
+    padding: 5px 10px;
+}
+.closeNewCard{
+    position: absolute;
+    top: 0px;
+    left: 95.5%;
+
+}

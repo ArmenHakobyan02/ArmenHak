@@ -1,0 +1,34 @@
+#ParLoginDiv{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#AdminPar{
+    width: 500px;
+    height: 450px;
+    /* border: solid 1px; */
+    background-color: white;
+    padding: 25px 25px;
+    position: relative;
+}
+.inputlogin{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    padding: 15px 5px;
+}
+.loginbtn{
+    padding: 10px 25px;
+}
+.Adminchlos{
+    position: absolute;
+    top: 0px;
+    left: 93%;
+}
