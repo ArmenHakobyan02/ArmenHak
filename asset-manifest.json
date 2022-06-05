@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//ArmenHakobyan02.github.io/ArmenHak/static/css/main.0dce7515.css",
+    "main.js": "/https//ArmenHakobyan02.github.io/ArmenHak/static/js/main.b54b921f.js",
+    "index.html": "/https//ArmenHakobyan02.github.io/ArmenHak/index.html",
+    "main.0dce7515.css.map": "/https//ArmenHakobyan02.github.io/ArmenHak/static/css/main.0dce7515.css.map",
+    "main.b54b921f.js.map": "/https//ArmenHakobyan02.github.io/ArmenHak/static/js/main.b54b921f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dce7515.css",
+    "static/js/main.b54b921f.js"
+  ]
+}
